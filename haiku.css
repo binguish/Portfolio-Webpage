@@ -1,0 +1,46 @@
+.gen {
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    background-color: rgb(78, 76, 82);
+    padding: 1.5rem 2rem;
+
+
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.gen:hover {
+    background-color: rgb(219, 214, 228);
+    color:rgba(47, 46, 49, 0.76);
+    transform: translateX(-4px);
+    transform: translateY(-4px);
+
+    box-shadow: 5px 5px 1px 0 rgb(78, 76, 82);
+}
+
+.gen:active {
+    box-shadow: 0 0 rgb(78, 76, 82);
+    transform: translateX(1px);
+}
+
+
+.haiku-reader {
+    display: flex;
+    width: max-content;
+    margin: 1rem auto;
+    /* border: 1px solid #000; */
+
+    padding: 1.5rem 2rem;
+    box-shadow: inset .15rem .15rem 1rem 0 rgba(119, 119, 119, 0.418);
+    background-color: rgba(143, 138, 153, 0.418);
+    text-align: center;
+    line-height: 2;
+
+}
+
+div.center-gen {
+    position: relative;
+    top: 5rem;
+}
+

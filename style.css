@@ -1,0 +1,243 @@
+html {
+    font-family: "Roboto Mono";
+    font-weight: 300;
+}
+
+
+main {
+    height: 95vh;
+}
+
+/* .fixed-nav {
+    position: fixed;
+    z-index: 100;
+} */
+
+.main-bg {
+    background: rgb(60,60,60);
+    background: linear-gradient(110deg, rgba(71, 77, 83, 0.2) 0%, rgba(169,193,205,0.1) 25%, rgba(255,255,255,1) 100%);
+    border-top-left-radius: 1rem;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: inherit; 
+}
+
+a:visited {
+    color: inherit;
+}
+
+
+nav a {
+    box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+    margin: 0;
+    padding: .25rem .5rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+/* nav a:hover {
+    box-shadow: inset 3rem 0 0 0 rgb(255, 200, 0);
+    color: white;
+  } */
+
+#contact-link {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    }
+
+
+
+#contact-link:hover {
+    box-shadow: inset 10rem 0 0 0 rgb(255, 79, 176);
+    color: white;
+}
+
+#time-date {
+    position: absolute;
+    top: 0;
+    margin-top: 25px;
+    padding: .25rem;
+    font-size: .82rem;
+
+    left: 50%;
+    transform: translateX(-50%);
+    
+    border: 1px solid rgb(26, 26, 26);
+}
+
+#projects-link:hover {
+    box-shadow: inset 10rem 0 0 0 rgb(96, 146, 255);
+    color: white;
+}
+
+
+
+#experience-link:hover {
+    box-shadow: inset 10rem 0 0 0 rgb(255, 200, 0);
+    color: white;
+}
+
+
+header nav a {
+    margin: 0 1rem;
+}
+
+.square-house {
+    display:flex;
+    margin-left: 20px;
+}
+.square {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all .2s ease-in-out;
+}
+
+.square:hover {
+    transform: scale(110%);
+    rotate: 100deg;
+
+    box-shadow: 1px 1px 2px 0 rgba(78, 76, 82, .5);
+}
+
+#bg-yellow {
+    background-color:rgb(255, 200, 0)
+}
+#bg-blue {
+    background-color:rgb(96, 146, 255)
+}
+#bg-pink {
+    background-color:rgb(255, 79, 176)
+}
+
+.nameplate {
+    display: flex;
+}
+
+
+
+#hero {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero img {
+    min-width: 250px;
+    width: 25%;
+    border-radius:5px;
+    /* box-shadow: rgb(255, 255, 255) 0px 8px 1000px; */
+    box-shadow: rgb(255, 255, 255) 0px 0px 1000px 0px;
+}
+
+#hero p{
+    width: 18rem;
+    margin: 4rem;
+}
+
+#about {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#seperator {
+    font-size: 1.5rem;
+}
+
+.about-box h2 {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.linky {
+    text-decoration: underline;
+ 
+}
+
+.linky:link {
+    color: blue !important;
+}
+.linky:visited {
+    color: blue !important;
+}
+
+.linky:hover {
+    color: red !important;
+}
+
+.hover-button {
+    display: flex;
+    width: 10rem;
+    margin: 0 auto;
+    color: #fff !important;
+    background-color: rgb(78, 76, 82);
+    padding: 1.5rem 2rem;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.hover-button:hover {
+    background-color: rgb(219, 214, 228);
+    color:rgba(47, 46, 49, 0.76) !important;
+    transform: translateX(-4px);
+    transform: translateY(-4px);
+
+    box-shadow: 5px 5px 1px 0 rgb(78, 76, 82);
+}
+
+.hover-button:active {
+    box-shadow: 0 0 rgb(78, 76, 82);
+    transform: translateX(1px);
+}
+
+.bg {
+    color:rgb(255, 255, 255);
+    background-color: rgba(47, 46, 49, 0.76);
+
+    box-shadow: inset .15rem .15rem 1rem 0 rgba(119, 119, 119, 0.418);
+
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+.center-div {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container > h2 {
+    width: 14rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border: 1px solid black;
+}
+
+.center-div > h1 {
+    margin: 3rem auto;
+}
